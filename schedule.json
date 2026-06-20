@@ -1,6 +1,16 @@
 {
   "posts": [
     {
+      "filename": "youth-rent-support-apply.html",
+      "publish_date": "2026-06-20",
+      "publish_time": "09:30",
+      "title": "2026년 청년 월세 특별지원 조건 및 신청방법 서류 총정리",
+      "description": "매월 최대 20만 원씩 주거비를 지원받을 수 있는 청년 월세 특별지원 제도를 아시나요? 지원 요건과 소득/재산 기준, 제출 서류를 확인해 보세요.",
+      "image_url": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80",
+      "tag": "정부지원금",
+      "date_display": "2026.06.20"
+    },
+    {
       "filename": "working-income-tax-credit-late-apply.html",
       "publish_date": "2026-06-20",
       "publish_time": "09:00",
