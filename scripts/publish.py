@@ -6,7 +6,6 @@ GitHub Actions에서 KST 오전 8시, 오후 4시에 실행
 
 import json
 import os
-import sys
 from datetime import datetime, timezone, timedelta
 
 # KST = UTC+9
