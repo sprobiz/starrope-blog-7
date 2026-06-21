@@ -134,10 +134,16 @@ def main():
             # 놓친 이전 날짜 포스트 - 이번 실행에서 발행
             should_publish = True
         elif post_date == today:
-            # 오늘 날짜: 해당 슬롯 시간이 됐는지 확인
-            post_hour = 8 if post_time == '08:00' else 16
-            if current_hour >= post_hour:
-                should_publish = True
+            # 오늘 날짜: 지정된 시간(시:분)이 지났는지 확인
+            try:
+                post_hour, post_minute = map(int, post_time.split(':'))
+                if (current_hour > post_hour) or (current_hour == post_hour and now.minute >= post_minute):
+                    should_publish = True
+            except ValueError:
+                # 예외 처리: 기존 방식 대비 안전 장치
+                post_hour = 8 if post_time == '08:00' else 16
+                if current_hour >= post_hour:
+                    should_publish = True
 
         if should_publish:
             filename = post['filename']
