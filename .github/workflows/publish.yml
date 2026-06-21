@@ -4,6 +4,8 @@ on:
   schedule:
     # KST 오전 9시 = UTC 00:00
     - cron: '0 0 * * *'
+    # KST 오전 6시 30분 = UTC 21:30
+    - cron: '30 21 * * *'
   # 수동 실행 버튼 (테스트용)
   workflow_dispatch:
 
