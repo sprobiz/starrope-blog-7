@@ -1,11 +1,21 @@
 {
   "posts": [
     {
+      "filename": "emergency-welfare-support.html",
+      "publish_date": "2026-06-22",
+      "publish_time": "21:00",
+      "title": "2026년 긴급복지지원제도 신청 자격 조건 및 혜택 신청방법 총정리",
+      "description": "갑작스러운 실직, 휴·폐업, 또는 중한 질병 등으로 가구의 생계 유지가 곤란해지셨나요? 위기 상황에 처한 가구를 신속하게 지원하여 생계를 돕는 2026년 긴급복지지원제도의 신청 자격과 혜택, 신청 방법을 안내합니다.",
+      "image_url": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=800&q=80",
+      "tag": "정부지원금",
+      "date_display": "2026.06.22"
+    },
+    {
       "filename": "single-parent-support-grant.html",
       "publish_date": "2026-06-30",
       "publish_time": "06:30",
       "title": "2026년 한부모가정 자격기준 지원금 혜택 및 신청방법 완벽 정리",
-      "description": "한부모가족의 아동 양육비와 교육비 등을 지원하는 2026년 한부모가정의 소득인정액 자격 기준(중위소득 63% 이하 등), 각종 현금성 지원 및 복지 혜택과 신청 절차를 완벽히 안내합니다.",
+      "description": "한부모가족의 아동 양육비 and 교육비 등을 지원하는 2026년 한부모가정의 소득인정액 자격 기준(중위소득 63% 이하 등), 각종 현금성 지원 및 복지 혜택과 신청 절차를 완벽히 안내합니다.",
       "image_url": "https://images.unsplash.com/photo-1536640712247-c5780feec30a?auto=format&fit=crop&w=800&q=80",
       "tag": "정부지원금",
       "date_display": "2026.06.30"
