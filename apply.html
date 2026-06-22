@@ -8,8 +8,7 @@
   <!-- Link CSS (relative path) -->
   <link rel="stylesheet" href="assets/style.css">
   
-  <!-- Pre-configured Google AdSense Auto Ads Tag -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1692428092138510" crossorigin="anonymous"></script>
+  
 
   <style>
     .bridge-container {
@@ -125,10 +124,8 @@
     if (targetUrl && (targetUrl.startsWith('http://') || targetUrl.startsWith('https://'))) {
       manualLink.href = targetUrl;
       
-      // 1.5초 후 자동 리다이렉션 (전면 광고 노출 시간 버퍼 확보)
-      setTimeout(() => {
-        window.location.href = targetUrl;
-      }, 1500);
+      // 즉시 공식 사이트로 안전하게 리다이렉션
+      window.location.href = targetUrl;
     } else {
       // 파라미터가 없거나 잘못된 주소일 경우 홈으로 리다이렉트
       document.querySelector('.loading-title').textContent = "올바르지 않은 접근입니다";
