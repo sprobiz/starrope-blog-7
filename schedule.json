@@ -1,6 +1,16 @@
 {
   "posts": [
     {
+      "filename": "child-allowance-apply.html",
+      "publish_date": "2026-06-27",
+      "publish_time": "07:00",
+      "title": "2026년 아동수당 신청방법 및 지급액 수급자격 총정리",
+      "description": "만 8세 미만 모든 아동에게 매월 10만 원씩 지급되는 2026년 아동수당의 수급 자격, 지급액, 온라인·방문 신청방법 및 부모급여·첫만남이용권과의 중복 수급 여부까지 한눈에 정리했습니다.",
+      "image_url": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=800&q=80",
+      "tag": "육아 혜택",
+      "date_display": "2026.06.27"
+    },
+    {
       "filename": "unemployment-benefit-apply.html",
       "publish_date": "2026-06-23",
       "publish_time": "22:00",
@@ -59,6 +69,16 @@
       "image_url": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=800&q=80",
       "tag": "정부지원금",
       "date_display": "2026.06.22"
+    },
+    {
+      "filename": "disability-pension-apply.html",
+      "publish_date": "2026-06-26",
+      "publish_time": "06:30",
+      "title": "2026년 장애인연금 수급자격 신청방법 지급액 완벽 정리",
+      "description": "2026년 장애인연금 수급 자격(중증장애인 1·2급), 월 최대 지급액, 기초급여·부가급여 구분, 온라인·오프라인 신청방법 및 구비서류를 한눈에 정리했습니다. 기초수급자는 기초급여+부가급여 합산 월 최대 737,990원 수령 가능.",
+      "image_url": "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=800&q=80",
+      "tag": "정부지원금",
+      "date_display": "2026.06.26"
     },
     {
       "filename": "single-parent-support-grant.html",
