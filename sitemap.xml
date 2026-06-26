@@ -138,4 +138,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-</urlset>
+  <url>
+    <loc>https://blog7.starrope2023.com/posts/parent-benefit-apply.html</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+</urlset>
