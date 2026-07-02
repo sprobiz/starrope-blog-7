@@ -19,6 +19,71 @@ AUTHOR_BOX_HTML = """      <!-- Author Profile Box (Alphanahm Skill) -->
 """
 
 NEW_POSTS_DATA = {
+    "small-business-support-grant-2026.html": {
+        "title": "2026년 소상공인 저금리 대출 및 경영안정지원금 신청자격 조건 신청방법 총정리",
+        "description": "2026년 고금리와 경기 불황으로 어려움을 겪는 영세 자영업자 및 소상공인을 위한 최저 연 2.0%대 저금리 정부 정책자금 대출(경영안정자금), 대환대출 자격 조건, 지원 금액 한도, 그리고 소상공인시장진흥공단 온라인 신청 절차와 제출 서류까지 알기 쉽게 총정리해 드립니다.",
+        "category": "소상공인 혜택",
+        "image_url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80",
+        "table": [
+            ("지원 사업명", "2026년 소상공인 정책자금 (경영안정자금/대환대출)"),
+            ("대출 금리", "최저 연 2.0% ~ 4.0%대 변동 또는 고정금리 (정책 우대금리 적용)"),
+            ("대출 한도", "업체당 최대 7,000만 원 (일반경영안정자금 기준)"),
+            ("상환 기간", "5년 (2년 거치, 3년 균등분할상환)"),
+            ("주요 신청자격", "소상공인 보호 및 지원에 관한 법률상 소상공인 (상시근로자 5인/10인 미만)")
+        ],
+        "faq": [
+            ("저신용 소상공인도 정책자금 대출을 신청할 수 있나요?", "네, 가능합니다. 신용평점(NICE 기준 744점 이하 등)이 낮은 저신용·취약 소상공인을 위한 전용 자금(소상공인 특화자금, 재도전특별자금 등)이 별도로 마련되어 있어 일반 시중은행 대출이 어려운 분들도 신청하실 수 있습니다."),
+            ("대환대출은 어떤 정책인가요?", "고금리 대출(연 7% 이상)을 이용 중인 소상공인을 대상으로 최저 연 4.5% 수준의 저금리 장기 저리 융자로 전환해 주는 지원 정책입니다. 이자 부담을 획기적으로 낮출 수 있습니다."),
+            ("법인 소상공인도 신청이 가능한가요?", "네, 개인사업자뿐만 아니라 상시 근로자 수 등 소상공인 기준을 충족하는 법인사업자도 신청 가능합니다. 다만, 법인의 경우 법인인감증명서 및 등기사항전부증명서 등의 추가 서류가 필요합니다."),
+            ("연체 중이거나 세금 체납이 있어도 신청할 수 있나요?", "세금 체납, 금융기관 연체, 휴·폐업 중인 사업자는 원칙적으로 정책자금 지원 대상에서 제외됩니다. 단, 국세청 체납처분 유예를 받았거나 연체정보가 해제된 경우에는 신청이 가능할 수 있습니다.")
+        ],
+        "content": """
+      <p>지속되는 고금리 기조와 내수 진작 부진으로 인해 많은 자영업자 및 소상공인분들이 자금난을 겪고 있습니다. 정부와 소상공인시장진흥공단은 이러한 영세 소상공인의 연쇄 부도를 막고 경영 안정을 돕기 위해 <strong>2026년 소상공인 정책자금 지원계획</strong>을 확정하고 대규모 융자 공급에 나섰습니다. 특히 올해는 <strong>연 2.0%~3.0%대의 초저금리 경영안정자금</strong>과 <strong>고금리 대환대출</strong>의 지원 요건을 대폭 완화하여 문턱을 낮췄습니다. 이번 글에서는 내가 받을 수 있는 2026년 소상공인 저금리 대출 조건부터 신청 방법까지 핵심만 명쾌하게 정리해 드립니다.</p>
+      
+      <h2>1. 2026년 소상공인 정책자금 핵심 분류 및 지원 한도</h2>
+      <p>소상공인 정책자금은 크게 소진공에서 직접 대출해 주는 '직접대출'과 금융기관을 통하는 '대리대출'로 나뉩니다. 사업의 목적과 신용도에 따라 알맞은 자금을 선택해야 승인율을 높일 수 있습니다.</p>
+      <ul>
+        <li><strong>일반경영안정자금:</strong> 업력 1년 미만의 초기 소상공인이나 경영 애로를 겪는 자영업자를 위한 자금으로, <strong>업체당 최대 7,000만 원</strong>까지 지원됩니다.</li>
+        <li><strong>소상공인 특화자금:</strong> 제조업을 영위하는 소공인(상시근로자 10인 미만)을 대상으로 기계설비 도입이나 원자재 구매 비용을 지원하며, <strong>최대 5억 원(운전자금 1억 원)</strong>까지 대출이 가능합니다.</li>
+        <li><strong>대환대출 (고금리 대환):</strong> 제2금융권 등에서 연 7% 이상의 고금리 대출을 성실 상환 중인 소상공인에게 연 4.5% 고정금리 정책대출로 전환해 주며, <strong>최대 5,000만 원</strong> 한도로 지원합니다.</li>
+        <li><strong>재도전특별자금:</strong> 폐업 후 재창업을 준비 중이거나 채무조정을 성실히 이행 중인 소상공인의 재기를 돕기 위한 특수 자금입니다.</li>
+      </ul>
+      
+      <blockquote>
+        "2026년 정책자금은 한정된 예산으로 운영되므로 매월 초(대체로 첫째 주 월요일) 접수 개시 후 며칠 이내에 선착순으로 마감되는 경향이 있습니다. 자금이 필요한 소상공인 분들은 미리 서류를 구비해 두고 접수 당일 신속하게 신청하셔야 합니다."
+      </blockquote>
+
+      <h2>2. 신청 자격 조건 (상시근로자 및 소상공인 기준)</h2>
+      <p>아무리 혜택이 좋더라도 소상공인 법적 요건을 충족하지 못하면 신청이 불가능합니다. 아래 3가지 기본 조건을 체크해 보세요.</p>
+      
+      <h3>① 상시 근로자 수 기준</h3>
+      <p>제조업, 건설업, 운수업, 광업은 <strong>상시 근로자 10인 미만</strong>이어야 하며, 도소매업, 서비스업, 음식점업 등 그 밖의 모든 업종은 <strong>상시 근로자 5인 미만</strong>(4인 이하)인 사업장만 소상공인으로 인정받습니다.</p>
+      
+      <h3>② 업종별 매출액 기준</h3>
+      <p>중소기업기본법 시행령에 따른 연간 매출액이 업종별 기준(소매업 50억 원 이하, 음식점업 10억 원 이하 등) 이하인 소기업이어야 합니다.</p>
+      
+      <h3>③ 지원 제외 대상 업종</h3>
+      <p>사행성 업종, 유흥업소, 부동산 임대 및 공급업, 전문 직종(변호사, 병원, 약국 등), 금융 및 보험업 등 일부 업종은 정부 지원금 및 정책자금 융자 대상에서 제외되므로 본인의 사업자등록증상 업종을 반드시 확인해야 합니다.</p>
+
+      <h2>3. 2026년 대출 금리 및 상환 조건</h2>
+      <p>2026년 소상공인 정책자금 금리는 분기별 정책금리에 가산금리를 합산하여 결정됩니다.</p>
+      <ul>
+        <li><strong>적용 금리:</strong> 기준금리(연 2.0% 내외)에 사업별 가산금리(0.2%~0.6%)가 더해져 최종 <strong>연 2.2% ~ 3.5% 수준</strong>으로 이용할 수 있어 시중 1금융권 대출보다 훨씬 유리합니다.</li>
+        <li><strong>상환 기간:</strong> 거치기간 2년을 포함하여 총 <strong>5년 분할 상환</strong> 조건이 적용됩니다. 초기 2년 동안은 원금 상환 없이 매달 이자만 납부하므로 창업 초기나 경영 악화 시기에 비용 부담을 크게 덜 수 있습니다.</li>
+        <li><strong>중도상환수수료 면제:</strong> 정부 정책자금은 대출 기간 중 원금을 언제든지 상환해도 중도상환수수료가 전액 면제되므로, 여유 자금이 생기면 바로 갚아 이자 지출을 줄일 수 있습니다.</li>
+      </ul>
+
+      <h2>4. 100% 비대면 온라인 신청 방법 및 구비 서류</h2>
+      <p>소상공인시장진흥공단은 소상공인의 편의를 위해 직접 방문 없이 공단 누리집을 통해 <strong>모바일 및 온라인 접수</strong>를 진행하고 있습니다.</p>
+      <ol>
+        <li><strong>소상공인정책자금 누리집 접속:</strong> [소상공인정책자금 온라인 플랫폼]에 접속하여 공인인증서 또는 간편인증으로 로그인합니다.</li>
+        <li><strong>자가진단 및 동의서 작성:</strong> 대출 신청 자격 조건에 부합하는지 비대면 설문을 작성하고 개인정보 및 신용정보 조회 동의를 진행합니다.</li>
+        <li><strong>제출 서류 자동 수집(마이데이터):</strong> 국세청 홈택스 등과 연동되어 사업자등록증명원, 부가가치세과세표준증명, 국세/지방세 완납증명서 등 필수 서류는 마이데이터를 통해 자동으로 제출되므로 매우 편리합니다.</li>
+        <li><strong>신청 완료 및 서류 심사:</strong> 서류 제출이 완료되면 공단에서 사업장 실사(필요시) 및 재무 상태 심사를 거쳐 대출 약정을 체결하게 됩니다. 직접대출은 공단에서 바로 송금되며, 대리대출은 보증서 발급 후 시중은행을 방문하여 대출을 실행합니다.</li>
+      </ol>
+        """
+    },
+
     "unemployment-benefit-apply.html": {
         "title": "2026년 실업급여 조건 및 신청방법 지급액 상하한액 계산 총정리",
         "description": "2026년 최저임금 인상(10,320원)에 따라 7년 만에 상향 조정된 실업급여(구직급여)의 1일 상한액(68,100원) 및 하한액, 비자발적 퇴사 등 수급 자격 요건, 온라인/모바일 신청 절차와 최근 강화된 반복 수급자 제재 및 감액 기준까지 한눈에 알기 쉽게 총정리해 드립니다.",
@@ -332,24 +397,34 @@ def update_schedule_json():
         schedule = json.load(f)
         
     existing_filenames = {p['filename'] for p in schedule['posts']}
+    updated = False
     
-    if "unemployment-benefit-apply.html" not in existing_filenames:
-        entry = {
-            "filename": "unemployment-benefit-apply.html",
-            "title": NEW_POSTS_DATA["unemployment-benefit-apply.html"]["title"],
-            "description": NEW_POSTS_DATA["unemployment-benefit-apply.html"]["description"],
-            "image_url": NEW_POSTS_DATA["unemployment-benefit-apply.html"]["image_url"],
-            "tag": NEW_POSTS_DATA["unemployment-benefit-apply.html"]["category"],
-            "date_display": "2026.06.23",
-            "publish_date": "2026-06-23",
-            "publish_time": "22:00"
-        }
-        schedule['posts'].append(entry)
+    for filename, post_data in NEW_POSTS_DATA.items():
+        if filename not in existing_filenames:
+            date_display = "2026.07.03" if filename == "small-business-support-grant-2026.html" else "2026.06.23"
+            publish_date = "2026-07-03" if filename == "small-business-support-grant-2026.html" else "2026-06-23"
+            publish_time = "07:00" if filename == "small-business-support-grant-2026.html" else "22:00"
+            
+            entry = {
+                "filename": filename,
+                "title": post_data["title"],
+                "description": post_data["description"],
+                "image_url": post_data["image_url"],
+                "tag": post_data["category"],
+                "date_display": date_display,
+                "publish_date": publish_date,
+                "publish_time": publish_time
+            }
+            schedule['posts'].append(entry)
+            existing_filenames.add(filename)
+            updated = True
+            print(f"[SUCCESS] schedule.json updated for {filename}")
+        else:
+            print(f"[INFO] Post {filename} already exists in schedule.json")
+            
+    if updated:
         with open(SCHEDULE_PATH, 'w', encoding='utf-8') as f:
             json.dump(schedule, f, indent=2, ensure_ascii=False)
-        print("[SUCCESS] schedule.json updated for unemployment-benefit-apply.html")
-    else:
-        print("[INFO] Post unemployment-benefit-apply.html already exists in schedule.json")
 
 def process_file(filepath):
     filename = os.path.basename(filepath)
