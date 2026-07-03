@@ -81,7 +81,11 @@ NEW_POSTS_DATA = {
         <li><strong>제출 서류 자동 수집(마이데이터):</strong> 국세청 홈택스 등과 연동되어 사업자등록증명원, 부가가치세과세표준증명, 국세/지방세 완납증명서 등 필수 서류는 마이데이터를 통해 자동으로 제출되므로 매우 편리합니다.</li>
         <li><strong>신청 완료 및 서류 심사:</strong> 서류 제출이 완료되면 공단에서 사업장 실사(필요시) 및 재무 상태 심사를 거쳐 대출 약정을 체결하게 됩니다. 직접대출은 공단에서 바로 송금되며, 대리대출은 보증서 발급 후 시중은행을 방문하여 대출을 실행합니다.</li>
       </ol>
-        """
+        """,
+        "cta_title": "📍 소상공인시장진흥공단 정책자금 공식 신청 페이지 바로가기",
+        "cta_desc": "아래 버튼을 클릭하시면 소상공인시장진흥공단 공식 온라인 플랫폼으로 즉시 이동하여 자가진단 및 신청을 진행하실 수 있습니다.<br>(이동 시 1~2초간 데이터 보안성 점검 로딩이 진행될 수 있습니다.)",
+        "cta_btn_text": "소상공인정책자금 공식 홈페이지 바로가기",
+        "cta_url": "https://ols.semas.or.kr"
     },
 
     "unemployment-benefit-apply.html": {
@@ -145,7 +149,105 @@ NEW_POSTS_DATA = {
         <li><strong>수급자격 온라인 교육 이수:</strong> [고용24 홈페이지] 또는 모바일 앱에 로그인한 후 '수급자격 신청자 온라인 교육'을 시청합니다. (교육 시작 후 14일 이내에 고용센터를 방문해야 함)</li>
         <li><strong>관할 고용센터 방문 및 수급자격 신청:</strong> 신분증을 지참하고 주민등록상 주소지의 관할 고용복지플러스센터에 직접 방문하여 실업급여 수급자격 인정 신청서를 제출합니다.</li>
       </ol>
-        """
+        """,
+        "cta_title": "📍 실업급여 고용24 공식 신청 페이지 바로가기",
+        "cta_desc": "아래 버튼을 클릭하시면 고용노동부 고용24 공식 웹사이트로 즉시 이동하여 온라인 신청을 진행하실 수 있습니다.<br>(이동 시 1~2초간 데이터 보안성 점검 로딩이 진행될 수 있습니다.)",
+        "cta_btn_text": "고용24 공식 홈페이지 바로가기",
+        "cta_url": "https://www.work24.go.kr"
+    },
+
+    "working-income-tax-credit-2026.html": {
+        "title": "2026년 하반기 근로장려금 신청자격 조건 및 지급일 조회 방법 총정리",
+        "description": "2026년 하반기 근로장려금(자녀장려금 포함)의 단독·홑벌이·맞벌이 가구별 소득 및 재산 자격 요건, 가구당 최대 지급액 한도, 모바일 홈택스(손택스) 온라인 신청 절차와 지급 시기 및 결과 조회 방법까지 알기 쉽게 총정리해 드립니다.",
+        "category": "정부지원금",
+        "image_url": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=800&q=80",
+        "table": [
+            ("구분", "2026년 하반기 근로장려금 핵심 정보"),
+            ("가구유형별 기준", "단독가구(2,200만원 미만), 홑벌이가구(3,200만원 미만), 맞벌이가구(3,800만원 미만)"),
+            ("재산 합계 요건", "가구원 합산 2억 4,000만 원 미만 (1억 7,000만 원 이상 시 50% 감액)"),
+            ("최대 지급액", "단독(최대 165만원), 홑벌이(최대 285만원), 맞벌이(최대 330만원)"),
+            ("신청 및 지급일", "하반기 신청: 2026년 9월 1일 ~ 9월 15일 | 지급일: 2026년 12월 말 예정")
+        ],
+        "faq": [
+            ("자녀장려금과 중복해서 신청하여 받을 수 있나요?", "네, 근로장려금과 자녀장려금의 지급 요건을 모두 충족한다면 두 장려금을 모두 신청하여 중복 수령할 수 있습니다. 자녀장려금은 부부합산 연 소득 7,000만 원 미만 가구를 대상으로 부양자녀 1명당 최대 100만 원을 지급합니다."),
+            ("재산 기준 2억 4,000만 원에 전세보증금도 포함되나요?", "네, 포함됩니다. 재산 가액 산정 시 예금, 적금, 주식, 부동산(주택, 토지), 자동차뿐만 아니라 거주 중인 주택의 임차보증금(전세금)도 재산 가액에 포함됩니다."),
+            ("근로소득 외에 사업소득이나 종교인소득이 있어도 반기 신청이 가능한가요?", "아니요, 사업소득자나 종교인소득자는 반기 신청 대상이 아닙니다. 근로소득만 있는 근로자만 반기(상/하반기) 신청을 선택할 수 있으며, 사업소득자 및 종교인소득자는 매년 5월에 진행되는 정기 신청 기간에만 신청이 가능합니다.")
+        ],
+        "content": """
+      <p>일하는 저소득 가구의 근로를 장려하고 경제적 자립을 돕기 위해 정부에서 지급하는 <strong>근로장려금</strong>은 해마다 지급 요건과 최대 지급 금액이 우대 조정되어 혜택이 확대되고 있습니다. 특히 2026년에는 고물가 기조에 대처하여 <strong>완화된 재산 요건(2억 4,000만 원 미만)</strong> 및 소득 요건 가이드가 적용되어 지원 대상층이 더욱 두터워졌습니다. 근로소득만 있는 근로자 가구의 경우 매년 상반기와 하반기로 나누어 두 번 신청하는 반기 신청 제도를 주로 활용합니다. 본 글에서는 <strong>2026년 하반기 근로장려금 신청자격 조건부터 지급액, 그리고 모바일 신청 및 지급 결과 조회 일정</strong>까지 핵심 정보를 알기 쉽게 완전 정복해 드립니다.</p>
+      
+      <h2>1. 2026년 근로장려금 가구유형별 소득 및 재산 자격 요건</h2>
+      <p>근로장려금을 받기 위해서는 가구원 구성에 따른 연간 부부합산 총소득 금액과 가구원 보유 재산 기준을 모두 만족해야 합니다.</p>
+      
+      <h3>① 가구 구성 기준</h3>
+      <ul>
+        <li><strong>단독 가구:</strong> 배우자, 부양자녀, 70세 이상 직계존속이 모두 없는 1인 가구</li>
+        <li><strong>홑벌이 가구:</strong> 배우자의 총급여액 등이 3백만 원 미만인 가구이거나, 배우자 없이 부양자녀 또는 70세 이상 직계존속이 있는 가구</li>
+        <li><strong>맞벌이 가구:</strong> 신청인과 배우자 각각의 총급여액 등이 3백만 원 이상인 가구</li>
+      </ul>
+      
+      <h3>② 연간 총소득 기준</h3>
+      <p>지난해(2025년) 부부합산 연간 총소득 합계액이 아래의 가구유형별 기준 금액 미만이어야 장려금을 신청할 수 있습니다.</p>
+      <ul>
+        <li><strong>단독 가구:</strong> 연 소득 2,200만 원 미만</li>
+        <li><strong>홑벌이 가구:</strong> 연 소득 3,200만 원 미만</li>
+        <li><strong>맞벌이 가구:</strong> 연 소득 3,800만 원 미만</li>
+      </ul>
+      
+      <h3>③ 재산 합산액 기준 (감액 조건)</h3>
+      <p>2025년 6월 1일 기준 가구원 전체가 보유하고 있는 재산(주택, 토지, 승용차, 예적금, 전세보증금 등)의 합계액이 <strong>2억 4,000만 원 미만</strong>이어야 합니다. 부채는 재산 가액 산정 시 제외(차감되지 않음)됩니다.</p>
+      <blockquote>
+        "꿀팁: 재산 합계액이 1억 7,000만 원 이상 2억 4,000만 원 미만인 구간에 해당하면 최종 결정 장려금의 50%만 지급(50% 감액)됩니다."
+      </blockquote>
+
+      <h2>2. 2026년 가구유형별 최대 지급 금액 한도</h2>
+      <p>가구의 소득 구간에 따라 최소 3만 원에서 시작하여 구간별 최대 지급 한도까지 산정되어 지급됩니다.</p>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0; border: 1px solid var(--border-light); font-size: 14.5px;">
+        <thead>
+          <tr style="background-color: var(--bg-ad); border-bottom: 2px solid var(--border-light);">
+            <th style="padding: 10px; border-right: 1px solid var(--border-light); text-align: center; color: var(--text-main);">가구 유형</th>
+            <th style="padding: 10px; border-right: 1px solid var(--border-light); text-align: center; color: var(--text-main);">최대 지급 금액</th>
+            <th style="padding: 10px; text-align: center; color: var(--text-main);">소득 상한선</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom: 1px solid var(--border-light);">
+            <td style="padding: 10px; border-right: 1px solid var(--border-light); text-align: center; font-weight: 600;">단독 가구</td>
+            <td style="padding: 10px; border-right: 1px solid var(--border-light); text-align: center; color: var(--primary-color); font-weight: bold;">최대 165만 원</td>
+            <td style="padding: 10px; text-align: center;">연 2,200만 원 미만</td>
+          </tr>
+          <tr style="border-bottom: 1px solid var(--border-light);">
+            <td style="padding: 10px; border-right: 1px solid var(--border-light); text-align: center; font-weight: 600;">홑벌이 가구</td>
+            <td style="padding: 10px; border-right: 1px solid var(--border-light); text-align: center; color: var(--primary-color); font-weight: bold;">최대 285만 원</td>
+            <td style="padding: 10px; text-align: center;">연 3,200만 원 미만</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border-right: 1px solid var(--border-light); text-align: center; font-weight: 600;">맞벌이 가구</td>
+            <td style="padding: 10px; border-right: 1px solid var(--border-light); text-align: center; color: var(--primary-color); font-weight: bold;">최대 330만 원</td>
+            <td style="padding: 10px; text-align: center;">연 3,800만 원 미만</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>3. 2026년 하반기 근로장려금 신청 및 지급일 일정</h2>
+      <p>근로장려금 반기 신청 제도는 매년 상반기 분(9월)과 하반기 분(다음 해 3월)으로 신청을 분산하여 진행하고 있습니다.</p>
+      <ul>
+        <li><strong>하반기 분 신청 기간:</strong> 2026년 9월 1일 ~ 9월 15일 (직전 연도 연간 근로소득만 있는 가구 대상)</li>
+        <li><strong>지급 시기:</strong> 2026년 12월 말 정산 후 일시 지급 (상반기/하반기 지급액 합산하여 정산 및 차액 지급)</li>
+      </ul>
+
+      <h2>4. 모바일 홈택스(손택스) 온라인 신청 및 심사결과 조회 방법</h2>
+      <p>국세청에서 발송한 신청 안내문(모바일/우편)을 받은 경우와 받지 못한 경우에 따라 간편 신청 및 일반 신청으로 진행됩니다.</p>
+      <ol>
+        <li><strong>안내문을 받은 경우 (개별인증번호):</strong> ARS 자동응답 전화(1544-9944)에 접속하여 음성 안내에 따라 인증번호를 입력하여 1분 이내에 간편 신청할 수 있습니다. 모바일 손택스 앱을 다운로드한 후 [원클릭 신청] 메뉴를 이용해도 매우 간편합니다.</li>
+        <li><strong>안내문을 받지 못한 경우:</strong> 국세청 홈택스 누리집에 접속하여 공동·금융인증서 또는 간편인증(카카오, 통신사패스 등)으로 본인인증 후 소득 및 재산 정보를 입력하고 증빙 자료를 직접 수동으로 첨부하여 일반 신청을 진행하셔야 합니다.</li>
+        <li><strong>심사 진행 상황 및 지급 예정일 조회:</strong> 홈택스/손택스 앱에 로그인 후 [장려금·자녀장려금] -> [심사 진행상황 조회] 메뉴를 통하여 접수 및 승인 단계, 그리고 지급 예정일 조회를 실시간으로 편리하게 확인하실 수 있습니다.</li>
+      </ol>
+        """,
+        "cta_title": "📍 국세청 홈택스(손택스) 근로장려금 공식 신청 페이지 바로가기",
+        "cta_desc": "아래 버튼을 클릭하시면 국세청 홈택스 공식 웹사이트로 즉시 이동하여 근로장려금 신청 및 결과 조회를 진행하실 수 있습니다.<br>(이동 시 1~2초간 데이터 보안성 점검 로딩이 진행될 수 있습니다.)",
+        "cta_btn_text": "국세청 홈택스 공식 홈페이지 바로가기",
+        "cta_url": "https://www.hometax.go.kr"
     }
 }
 
@@ -356,13 +458,12 @@ def create_new_html(filename, data):
       
       <!-- HIGH-CONVERTING REDIRECT CTA BOX -->
       <div class="redirect-box" style="margin-top: 40px;">
-        <h3 class="redirect-title" style="border: none; padding: 0; margin-bottom: 8px;">📍 실업급여 고용24 공식 신청 페이지 바로가기</h3>
+        <h3 class="redirect-title" style="border: none; padding: 0; margin-bottom: 8px;">{data.get('cta_title', '📍 실업급여 고용24 공식 신청 페이지 바로가기')}</h3>
         <p class="redirect-desc">
-          아래 버튼을 클릭하시면 고용노동부 고용24 공식 웹사이트로 즉시 이동하여 온라인 신청을 진행하실 수 있습니다.<br>
-          (이동 시 1~2초간 데이터 보안성 점검 로딩이 진행될 수 있습니다.)
+          {data.get('cta_desc', '아래 버튼을 클릭하시면 고용노동부 고용24 공식 웹사이트로 즉시 이동하여 온라인 신청을 진행하실 수 있습니다.<br>(이동 시 1~2초간 데이터 보안성 점검 로딩이 진행될 수 있습니다.)')}
         </p>
-        <a href="../apply.html?target=https://www.work24.go.kr" class="redirect-cta-btn" target="_blank" rel="noopener">
-          고용24 공식 홈페이지 바로가기
+        <a href="../apply.html?target={data.get('cta_url', 'https://www.work24.go.kr')}" class="redirect-cta-btn" target="_blank" rel="noopener">
+          {data.get('cta_btn_text', '고용24 공식 홈페이지 바로가기')}
           <svg xmlns="http://www.w3.org/2000/svg" style="width: 18px; height: 18px;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
           </svg>
@@ -401,9 +502,14 @@ def update_schedule_json():
     
     for filename, post_data in NEW_POSTS_DATA.items():
         if filename not in existing_filenames:
-            date_display = "2026.07.03" if filename == "small-business-support-grant-2026.html" else "2026.06.23"
-            publish_date = "2026-07-03" if filename == "small-business-support-grant-2026.html" else "2026-06-23"
-            publish_time = "07:00" if filename == "small-business-support-grant-2026.html" else "22:00"
+            if filename in ["small-business-support-grant-2026.html", "working-income-tax-credit-2026.html"]:
+                date_display = "2026.07.03"
+                publish_date = "2026-07-03"
+                publish_time = "07:00"
+            else:
+                date_display = "2026.06.23"
+                publish_date = "2026-06-23"
+                publish_time = "22:00"
             
             entry = {
                 "filename": filename,
